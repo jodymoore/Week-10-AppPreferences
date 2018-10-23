@@ -38,6 +38,7 @@ class ViewController: UIViewController {
     func clear()
     {
         txtEmail.resignFirstResponder()
+        txtPhone.resignFirstResponder()
         txtFullName.resignFirstResponder()
     }
     override func viewDidLoad() {
